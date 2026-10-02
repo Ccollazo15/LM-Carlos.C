@@ -13,7 +13,7 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
 |Presentación|Dar forma a documentos de texto|HTML, CSS|
 |Intercambio de información de forma ordenada|Almacenar información de forma ordenada|XML, RSS|
 |Documentación||Markdown, WikiTex |
-|||
+
 
 ## Instalación y configuracion del entorno
 1. Instalamos [VsCode](https://code.visualstudio.com/)
