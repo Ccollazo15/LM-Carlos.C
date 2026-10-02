@@ -32,28 +32,28 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
 |XML |Añade soporte para el lenguaje XML con formateo de código, validación y autocompletado de etiquetas.|![mark](IMG/images_XML.png)
 |Live Preview |Permite ver una vista previa en tiempo real y en vivo de tus páginas web dentro del propio editor.|![mark](IMG/livepreview.Default)|
 
-3. Instalamos Git
+1. Instalamos Git
 ```bash
 sudo apt install git
 ```
-4. Inicializar repositorio de git (en la carpeta del proyecto)
+2. Inicializar repositorio de git (en la carpeta del proyecto)
 ```bash
 git init
 git add.
 git commit -m "README básico UD1"
 ```
-5. En caso de error
-```bash
-git pull origin main --rebase
-git push origin main
-```
-6. Conectar VSCode con GitHub
+3. Conectar VSCode con GitHub
 ```bash
 git remote add origin https://github.com/Ccollazo15/LM-Carlos.git
 git branch -M main
 git push -u origin main
 ```
-7. Conectar repositorios de una maquina a otra
+4. En caso de error
+```bash
+git pull origin main --rebase
+git push origin main
+```
+5. Conectar repositorios de una maquina a otra
 - Primero debemos clonar el repositorio en una maquina nueva.
  ```bash
   git clone https://github.com/Ccollazo15/LM-Carlos.git
@@ -61,4 +61,10 @@ git push -u origin main
 - Segundo debemos tener los mismos archivos que la otra maquina.
 ```bash
 git pull
+```
+6. Actualizar contenidos nuevos
+```bash
+git add .
+git commit -m "Actualizacion_Archivos"
+git push origin main
 ```
