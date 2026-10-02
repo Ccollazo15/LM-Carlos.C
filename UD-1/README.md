@@ -53,7 +53,7 @@ git remote add origin https://github.com/Ccollazo15/LM-Carlos.git
 git branch -M main
 git push -u origin main
 ```
-1. Conectar repositorios de una maquina a otra
+7. Conectar repositorios de una maquina a otra
 - Primero debemos clonar el repositorio en una maquina nueva.
  ```bash
   git clone https://github.com/Ccollazo15/LM-Carlos.git
