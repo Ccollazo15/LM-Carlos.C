@@ -56,7 +56,7 @@ git push origin main
 5. Conectar repositorios de una maquina a otra
 - Primero debemos clonar el repositorio en una maquina nueva.
  ```bash
-  git clone https://github.com/Ccollazo15/LM-Carlos.git
+  git clone https://github.com/Ccollazo15/LM-Carlos.C.git
 ```
 - Segundo debemos tener los mismos archivos que la otra maquina.
 ```bash
