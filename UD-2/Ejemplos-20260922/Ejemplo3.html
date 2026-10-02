@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <script language="JavaScript">
+  	  var reloj=0;
+  	  var frecuencia=5000;
+      function actualiza(){
+        var son= new Date();
+        var data=son.getDate()+" - "+(son.getMonth()+1)+" - "+son.getFullYear();
+        var hora=son.getHours()+":"+son.getMinutes()+":"+son.getSeconds();
+        var escribe='Hoxe é '+data+' e son as '+hora+' horas';
+        var situa=document.getElementById('capa0');
+        situa.innerHTML=escribe;
+        reloj=setTimeout("actualiza()",frecuencia);
+      }
+    </script>
+    <title>Cronómetro</title>
+  </head>
+  <body onLoad="actualiza()">
+       <div id="capa0">
+       </div>
+  </body>
+</html>
