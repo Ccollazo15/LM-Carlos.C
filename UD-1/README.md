@@ -42,13 +42,18 @@ git init
 git add.
 git commit -m "README básico UD1"
 ```
-5. Conectar VSCode con GitHub
+5. En caso de error
+```bash
+git pull origin main --rebase
+git push origin main
+```
+6. Conectar VSCode con GitHub
 ```bash
 git remote add origin https://github.com/Ccollazo15/LM-Carlos.git
 git branch -M main
 git push -u origin main
 ```
-6. Conectar repositorios de una maquina a otra
+1. Conectar repositorios de una maquina a otra
 - Primero debemos clonar el repositorio en una maquina nueva.
  ```bash
   git clone https://github.com/Ccollazo15/LM-Carlos.git
