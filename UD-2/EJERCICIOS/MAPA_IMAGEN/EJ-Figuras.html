@@ -1,5 +1,28 @@
-<img src="map_area.png" width="320" height="180" usemap="#mapa_zonas" />
-<map name="mapa_zonas">
- <area shape="rect" coords="67,1,227,181" href="rectangulo.html" />
- <area shape="circle" coords="240,90,160" href="circulo.html" />
-</map>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Mapa de Figuras Geométricas</title>
+</head>
+
+<body>
+
+    <h2>Mapa de Imagen Interactivo</h2>
+    <p>Haz clic sobre cualquiera de las figuras para ir a su enlace correspondiente:</p>
+
+    <img src="map_area.png" usemap="#Mapa de Figuras" alt="Figuras geométricas">
+
+    <map name="Mapa de Figuras">
+        <area shape="rect" coords="36,18,243,105" href="rectangulo.html" alt="Rectángulo Amarillo">
+
+        <area shape="rect" coords="362,15,541,159" href="cuadrado.html" alt="Cuadrado Verde" title="Cuadrado Verde">
+
+        <area shape="poly" coords="138,214,38,382,238,382" href="triangulo.html" alt="Triángulo Azul"
+            title="Triángulo Azul">
+
+        <area shape="circle" coords="455,302,90" href="circulo.html" alt="Círculo Rojo" title="Círculo Rojo">
+    </map>
+
+</body>
+
+</html>
