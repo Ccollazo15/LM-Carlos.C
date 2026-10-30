@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <p>Vamos a probar diferentes valores de <em>type</em> de HTML5 para la etiqueta <em>input</em></p>
+
+    <form action="validar.php" method="get">
+
+        <fieldset>
+            <legend>Para datos personales</legend>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" size="9" maxlength="9" placeholder="9 números"
+                autocomplete="on" pattern="[0-9]{9}">
+            <br>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" size="50"
+                placeholder="El formato correcto es nombre+@+servidor de correo" autocomplete="on">
+        </fieldset>
+
+        <fieldset>
+            <legend>Para valores numéricos</legend>
+            <label for="personas">Número de personas</label>
+            <input type="number" id="personas" name="personas" min="1" max="20" step="1" value="1">
+            <br>
+            <label for="puntuacion">Mueva la barra para indicar puntuación (Del 1 al 10)</label>
+            <input type="range" id="puntuacion" name="puntuacion" min="1" max="10" step="1" value="0">
+        </fieldset>
+
+        <fieldset>
+            <legend>Url y búsqueda</legend>
+            <label for="url">Url de tu sitio</label>
+            <input type="url" id="url" name="url" size="50">
+            <br>
+            <label for="busqueda">¿Qué te interesa buscar?</label>
+            <input type="search" id="busqueda" name="busqueda">
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros tipos</legend>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color">
+        </fieldset>
+
+        <fieldset>
+            <legend>Para Fechas</legend>
+            <label for="dia">Seleccione un día (Hasta fin de año):</label>
+            <input type="date" id="dia" name="dia" max="2026-12-31">
+            <br>
+            <label for="hora">Seleccione una hora:</label>
+            <input type="time" id="hora" name="hora">
+            <br>
+            <label for="mes">Seleccione un mes (Hasta junio del 2026):</label>
+            <input type="month" id="mes" name="mes" max="2026-06">
+            <br>
+            <label for="semana">Seleccione una semana (Hasta junio del 2026):</label>
+            <input type="week" id="semana" name="semana" max="2026-W26">
+            <br>
+            <label for="fechahora">Seleccione fecha y hora:</label>
+            <input type="datetime-local" id="fechahora" name="fechahora">
+        </fieldset>
+
+        <button type="submit">
+            <img src="./IMG/Validar.jpeg" alt="Validar" width="50" height="50"><br>Validar
+        </button>
+        <button type="reset">
+            <img src="./IMG/Limpiar.jpeg" alt="Limpiar" width="50" height="50"><br>Limpiar
+        </button>
+
+    </form>
+
+</body>
+
+</html>
