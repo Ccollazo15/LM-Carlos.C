@@ -30,7 +30,7 @@ section {
   background-color: hsl(15, 15%, 65%);
 }
 
-section + section {
+section+section {
   margin-top: 40px;
 }
 
